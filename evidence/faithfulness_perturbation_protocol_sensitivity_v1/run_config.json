@@ -1,0 +1,18 @@
+{
+  "source": "/content/drive/MyDrive/Dissertation/edi_faithfulness_localization/edi_fixed_model_faithfulness_localization_isic100_r224_v1",
+  "substrates": [
+    "gaussian_blur_k31",
+    "channel_mean",
+    "zero_black"
+  ],
+  "step_counts": [
+    10,
+    20,
+    50
+  ],
+  "gaussian_specification": "cv2.GaussianBlur kernel=(31,31), sigmaX=0",
+  "bootstrap_reps": 2000,
+  "seed": 20260923,
+  "model_retrained": false,
+  "maps_regenerated": false
+}

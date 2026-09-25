@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or derived evidence, please cite the associated manuscript and this software release."
+title: "Explanation Stability, Faithfulness, and Lesion Localization in Dermoscopic Classification"
+type: software
+authors:
+  - family-names: Hammond
+    given-names: Scott G.
+    affiliation: Florida Atlantic University
+  - family-names: Ilyas
+    given-names: Mohammad
+    affiliation: Florida Atlantic University
+version: "0.1.0"
+preferred-citation:
+  type: article
+  title: "When Explanation Stability Does Not Imply Explanation Quality: Associations with Faithfulness and Lesion Localization in Dermoscopic Classification"
+  authors:
+    - family-names: Hammond
+      given-names: Scott G.
+    - family-names: Ilyas
+      given-names: Mohammad
+  year: 2026

@@ -1,0 +1,9 @@
+{
+  "substrate": "original_audited_gaussian",
+  "steps": 20,
+  "spearman_rho": 0.018122,
+  "ci_low": -0.083917,
+  "ci_high": 0.118166,
+  "bh_q": 0.997951,
+  "multiplicity_resistant": false
+}

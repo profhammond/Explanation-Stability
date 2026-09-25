@@ -1,0 +1,23 @@
+{
+  "primary_cohort": "ISIC-100",
+  "external_localization_cohort": "PH2",
+  "model": "EfficientNet-B0",
+  "input_size": [224, 224, 3],
+  "target_class": "positive melanoma class",
+  "conditions": ["baseline", "dullrazor", "telea", "navier_stokes"],
+  "attribution_methods": ["gradcam", "gradcampp", "eigencam"],
+  "primary_faithfulness_protocol": {
+    "substrate": "gaussian_blur_k31",
+    "steps": 20
+  },
+  "protocol_sensitivity": {
+    "substrates": ["gaussian_blur_k31", "channel_mean", "zero_black"],
+    "steps": [10, 20, 50],
+    "bootstrap_replicates": 2000
+  },
+  "primary_outcomes": ["deterioration_deletion_auc", "deterioration_soft_iou"],
+  "resampling_unit": "image_id",
+  "patient_identifiers_available": false,
+  "clinical_validation_claim_authorized": false
+}
+

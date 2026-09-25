@@ -1,0 +1,20 @@
+{
+  "inputs_audited": 400,
+  "maximum_probability_error": 0.012168526649475098,
+  "mean_probability_error": 0.0014007725805276967,
+  "median_probability_error": 0.0005797296762466431,
+  "p95_probability_error": 0.005005772411823268,
+  "spearman_probability_agreement": 0.9999491871824198,
+  "classification_agreement": 0.9975,
+  "classification_disagreements": 1,
+  "discordances_are_near_threshold": true,
+  "exact_tolerance": 0.0001,
+  "practical_maximum_tolerance": 0.02,
+  "practical_mean_tolerance": 0.005,
+  "practical_minimum_rank_agreement": 0.999,
+  "practical_minimum_classification_agreement": 0.995,
+  "threshold_boundary_width": 0.02,
+  "exact_probability_parity": false,
+  "practical_probability_parity": true,
+  "passed": true
+}
